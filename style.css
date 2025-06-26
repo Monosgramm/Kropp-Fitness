@@ -325,6 +325,11 @@ input[type="number"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
   column-gap: 20px;
   min-height: var(--header-height);
   padding-inline: 32px;
